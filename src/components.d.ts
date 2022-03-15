@@ -7,6 +7,9 @@
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
     interface PasswordInput {
+        "appearence": string;
+        "color": string;
+        "placeholder": string;
         "value": string;
     }
 }
@@ -23,7 +26,10 @@ declare global {
 }
 declare namespace LocalJSX {
     interface PasswordInput {
+        "appearence"?: string;
+        "color"?: string;
         "onValuechange"?: (event: CustomEvent<string>) => void;
+        "placeholder"?: string;
         "value"?: string;
     }
     interface IntrinsicElements {
