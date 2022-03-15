@@ -7,9 +7,12 @@
 
 ## Properties
 
-| Property | Attribute | Description | Type     | Default |
-| -------- | --------- | ----------- | -------- | ------- |
-| `value`  | `value`   |             | `string` | `''`    |
+| Property      | Attribute     | Description | Type     | Default      |
+| ------------- | ------------- | ----------- | -------- | ------------ |
+| `appearence`  | `appearence`  |             | `string` | `'standard'` |
+| `color`       | `color`       |             | `string` | `'default'`  |
+| `placeholder` | `placeholder` |             | `string` | `''`         |
+| `value`       | `value`       |             | `string` | `''`         |
 
 
 ## Events
