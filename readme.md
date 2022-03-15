@@ -12,4 +12,8 @@ color --> default || primary || warning || danger
 
 Outputs:
 
-valuechange: Event gets triggered on input value change and sends current value to parent component
+valuechange --> Emits the value whenever it changes.
+
+![Password Input Types](./src/assets/password-input-types.png)
+
+![Password Input Visibility](./src/assets/password-input-visibility.png)
